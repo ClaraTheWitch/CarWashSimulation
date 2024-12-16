@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Bay
+comment0.text=\n\ This\ is\ a\ class\ to\ create\ an\ object\ representing\ the\ bay\ area\ where\ the\ \n\ washing\ will\ occur.\n\n\ @author\ Clara\ Siefke\n\ @version\ 10/23/24\n
+comment1.params=washLength
+comment1.target=Bay(int)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Bay\n\ \n\ @param\ \ washLength\ \ the\ time\ a\ single\ wash\ takes\n
+comment2.params=
+comment2.target=int\ getTimeLeft()
+comment2.text=\n\ Gets\ the\ number\ of\ time\ steps\ remaining\ for\ a\ wash\n\ \n
+comment3.params=
+comment3.target=int\ getWashLength()
+comment3.text=\n\ Gets\ the\ time\ a\ typical\ wash\ takes\n\ \n\ @return\ \ the\ time\ a\ typical\ wash\ takes\n
+comment4.params=
+comment4.target=void\ advanceTime()
+comment4.text=\n\ Lowers\ the\ length\ of\ the\ wash\ by\ 1\n\ \n
+comment5.params=
+comment5.target=void\ loadBay()
+comment5.text=\n\ Sets\ the\ time\ remaining\ to\ the\ duration\n\ \n
+numComments=6

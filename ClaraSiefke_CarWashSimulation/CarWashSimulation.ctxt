@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=CarWashSimulation
+comment0.text=\n\ This\ class\ contains\ a\ constructor\ and\ methods\ for\ a\ simulation\ object\ that\ \n\ can\ run\ each\ step\ of\ the\ program.\n\n\ @author\ Clara\ Siefke\n\ @version\ 11/15/24\n
+comment1.params=q\ b\ s
+comment1.target=CarWashSimulation(LLQueue,\ Bay,\ java.util.ArrayList)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ CarWashSimulation\n\ \n\ @param\ \ q\ \ the\ queue\ of\ the\ cars\ waiting\n\ @param\ \ b\ \ the\ bay\ where\ the\ cars\ are\ washed\n\ @param\ \ s\ \ the\ list\ of\ serviced\ cars\n
+comment2.params=min
+comment2.target=void\ step(int)
+comment2.text=\n\ Runs\ a\ single\ minute\ of\ the\ simulation\n\ \n\ @param\ \ min\ \ the\ current\ time\ step\n
+comment3.params=min\ carArrives
+comment3.target=void\ step(int,\ boolean)
+comment3.text=\n\ Runs\ a\ single\ minute\ of\ the\ simulation\n\ \n\ @param\ \ min\ \ the\ current\ time\ step\n\ @param\ \ carArrives\ \ whether\ a\ car\ arrived\ at\ the\ car\ wash\n
+comment4.params=
+comment4.target=int\ getNumServiced()
+comment4.text=\n\ Gets\ the\ total\ number\ of\ cars\ serviced\n\ \n\ @return\ \ the\ number\ of\ cars\ serviced\n
+comment5.params=
+comment5.target=int\ getTotalWait()
+comment5.text=\n\ Gets\ the\ total\ time\ all\ cars\ waited\n\ \n\ @return\ \ the\ total\ time\ all\ cars\ waited\n
+comment6.params=
+comment6.target=int\ getAvgWait()
+comment6.text=\n\ Gets\ the\ average\ wait\ for\ each\ car\n\ \n\ @return\ \ the\ average\ wait\ for\ each\ car\n
+numComments=7

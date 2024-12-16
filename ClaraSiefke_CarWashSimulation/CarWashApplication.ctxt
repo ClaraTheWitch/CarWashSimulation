@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=CarWashApplication
+comment0.text=\n\ This\ is\ the\ main\ class\ for\ the\ program.\n\n\ @author\ Clara\ Siefke\n\ @version\ 11/15/24\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ The\ main\ method\ for\ the\ program\n\ \n
+comment2.params=steps\ wait
+comment2.target=void\ simulateDay(int,\ int)
+comment2.text=\n\ Simulates\ an\ entire\ day\ at\ the\ car\ wash\n\ \n\ @param\ \ steps\ \ the\ number\ of\ timesteps\ in\ a\ day\n\ @param\ \ wait\ \ how\ long\ it\ takes\ for\ a\ car\ to\ pass\ through\ the\ bay\n
+numComments=3

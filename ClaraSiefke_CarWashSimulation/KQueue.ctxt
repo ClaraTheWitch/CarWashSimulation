@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=KQueue
+comment0.text=\ The\ KQueue\ interface\ specifies\ the\ methods\ for\ a\ <i>queue</i>\n\ \ data\ structure.\n\ \ <ul>\n\ \ \ \ <li>The\ enqueue\ method\ adds\ an\ element\ to\ the\ "back"\ of\ the\n\ \ \ \ \ \ \ \ data\ structure.\n\ \ \ \ <li>The\ dequeue\ method\ acts\ as\ follows\:\n\ \ \ \ \ \ \ \ <ul>\n\ \ \ \ \ \ \ \ <li>If\ the\ queue\ is\ empty,\ an\ exception\ is\ thrown.\n\ \ \ \ \ \ \ \ <li>If\ the\ queue\ contains\ one\ element,\ dequeue\ returns\ that\ element,\n\ \ \ \ \ \ \ \ \ \ leaving\ the\ queue\ empty.\n\ \ \ \ \ \ \ \ <li>If\ the\ queue\ contains\ multiple\ elements,\ dequeue\ returns\ the\n\ \ \ \ \ \ \ \ \ \ element\ at\ the\ "front"\ of\ the\ queue,\ the\ one\ that\ has\ been\ there\n\ \ \ \ \ \ \ \ \ \ longest.\n\ \ \ \ \ \ \ \ </ul>\n\ \ </ul>\n
+comment1.params=
+comment1.target=boolean\ isEmpty()
+comment1.text=\ Returns\ <code>true</code>\ if\ this\ queue\ is\ empty;\n\ \ <code>false</code>\ otherwise.\n
+comment2.params=item
+comment2.target=void\ enqueue(java.lang.Object)
+comment2.text=\ Adds\ a\ specified\ object\ to\ the\ "back"\ of\ this\ queue.\n\ \ \ \ @param\ item\ -\ the\ object\ to\ add\ to\ the\ queue\n
+comment3.params=
+comment3.target=java.lang.Object\ dequeue()
+comment3.text=\ Removes\ the\ element\ at\ the\ "front"\ of\ this\ queue.\n\ \ \ \ @returns\ the\ removed\ element\n\ \ \ \ @throws\ NoSuchElementException\ if\ the\ queue\ is\ empty\n
+comment4.params=
+comment4.target=java.lang.Object\ peekFront()
+comment4.text=\ Returns\ the\ element\ at\ the\ "front"\ of\ this\ queue,\ without\n\ \ modifying\ the\ queue.\n\ \ \ \ @returns\ the\ element\ at\ the\ front\ of\ the\ queue\n\ \ \ \ @throws\ NoSuchElementException\ if\ the\ queue\ is\ empty\n
+numComments=5

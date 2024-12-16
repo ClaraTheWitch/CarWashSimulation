@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Car
+comment0.text=\n\ This\ class\ contains\ a\ constructor\ and\ methods\ for\ a\ Car\ object\ which\ \n\ represents\ a\ car\ going\ through\ the\ car\ wash.\n\n\ @author\ Clara\ Siefke\n\ @version\ 10/23/24\n
+comment1.params=time\ wait
+comment1.target=Car(int,\ int)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Car\n\ \n\ @param\ \ time\ \ the\ time\ step\ at\ which\ the\ car\ arrived\n\ @param\ \ wait\ \ the\ time\ which\ the\ car\ will\ wait\n
+comment2.params=
+comment2.target=int\ getArrival()
+comment2.text=\n\ Gets\ the\ time\ step\ at\ which\ the\ car\ arrived\n\ \n\ @return\ \ the\ time\ the\ car\ arrived\n
+comment3.params=
+comment3.target=int\ getWait()
+comment3.text=\n\ Gets\ the\ time\ that\ the\ car\ waited\n\ \n\ @return\ \ the\ time\ the\ car\ waited\n
+numComments=4
